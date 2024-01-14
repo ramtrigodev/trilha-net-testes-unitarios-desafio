@@ -4,6 +4,7 @@ namespace TestesUnitarios.Desafio.Tests;
 
 public class ValidacoesListaTests
 {
+    
     private ValidacoesLista _validacoes = new ValidacoesLista();
 
     [Fact]
@@ -98,4 +99,5 @@ public class ValidacoesListaTests
         Assert.Equal(-8, resultado);
 
     }
+    
 }

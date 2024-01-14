@@ -4,17 +4,15 @@ namespace TestesUnitarios.Desafio.Tests;
 
 public class ValidacoesStringTests
 {
-    /*
+    
     private ValidacoesString _validacoes = new ValidacoesString();
 
     [Fact]
     public void DeveRetornar6QuantidadeCaracteresDaPalavraMatrix()
     {
-        //TODO: Corrigir a variável "texto" e "resultadoEsperado" da seção Arrange
-
         // Arrange
-        var texto = "a";
-        var resultadoEsperado = 0;
+        var texto = "Matrix";
+        var resultadoEsperado = 6;
 
         // Act
         var resultado = _validacoes.RetornarQuantidadeCaracteres(texto);
@@ -22,6 +20,7 @@ public class ValidacoesStringTests
         // Assert
         Assert.Equal(resultadoEsperado, resultado);
     }
+    
 
     [Fact]
     public void DeveContemAPalavraQualquerNoTexto()
@@ -32,13 +31,13 @@ public class ValidacoesStringTests
 
         //TODO: Corrigir a chamada do método "ContemCaractere" da seção Act
         // Act
-         _validacoes.ContemCaractere(texto, textoProcurado);
+         var resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
         // Assert
         //TODO: Corrigir o Assert.True com base no retorno da chamada ao método
-        Assert.True(true);
+        Assert.True(resultado);
     }
-
+/*
     [Fact]
     public void NaoDeveConterAPalavraTesteNoTexto()
     {
@@ -71,5 +70,6 @@ public class ValidacoesStringTests
         // Assert
         Assert.True(resultado);
     }
+
     */
 }
