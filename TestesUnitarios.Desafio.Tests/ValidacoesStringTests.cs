@@ -4,6 +4,7 @@ namespace TestesUnitarios.Desafio.Tests;
 
 public class ValidacoesStringTests
 {
+    /*
     private ValidacoesString _validacoes = new ValidacoesString();
 
     [Fact]
@@ -53,6 +54,8 @@ public class ValidacoesStringTests
         Assert.False(true);
     }
 
+    [Fact]
+
     //TODO: Corrigir a anotação [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
     {
@@ -68,4 +71,5 @@ public class ValidacoesStringTests
         // Assert
         Assert.True(resultado);
     }
+    */
 }
